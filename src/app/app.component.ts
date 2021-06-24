@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `<app-sub *ngIf="hide"></app-sub>`
+  template: `<app-sub-componenet *ngIf="hide"></app-sub-componenet>`
 })
 export class AppComponent {
   hide = false;
