@@ -23,17 +23,18 @@ export class SubComponent implements OnDestroy {
     }
 
 
-    /*
+    
     this.dummyService.behavior$.subscribe(value => {
       //Assign the value to a new variable
       const foo =value;
     })
-    */
     
+    /*
     this.dummyService.behavior$.subscribe(value => {
       //Assing the value to the component variable
       this.rand =value;
     })
+    */
     
     
   }
